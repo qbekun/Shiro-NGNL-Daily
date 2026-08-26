@@ -1,0 +1,26 @@
+{
+	"name": "shirodaily",
+	"version": "1.0.0",
+	"description": "Daily Shiro pictures via Discord webhook",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/qbekun/Shiro-NGNL-Daily.git"
+	},
+	"keywords": [
+		"shiro"
+	],
+	"author": "qbekun",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/qbekun/Shiro-NGNL-Daily/issues"
+	},
+	"homepage": "https://lolikuza.ovh",
+	"dependencies": {
+		"dotenv": "^16.4.7"
+	}
+}
