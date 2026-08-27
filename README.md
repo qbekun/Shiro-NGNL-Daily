@@ -26,7 +26,14 @@
   - `USER_ID` → your Gelbooru User ID
   - `WEBHOOK` → your Discord webhook URL
 
-### 5. Run
+### 5. Configure GitHub Actions permissions
+- Go to your repository → **Settings** → **Actions** → **General**
+- Under **Actions permissions**, select **Allow all actions and reusable workflows**
+- Under **Workflow permissions**, select **Read and write permissions**
+- Click **Save**
+
+### 6. Run
 - Go to the **Actions** tab
-- Click **"Run workflow"**
-- The bot will send one random Shiro picture every day at **08:00 UTC**
+- Select the **Shiro Daily** workflow
+- Click **Run workflow**
+- The bot will send one random Shiro picture every day at **06:07 UTC**
