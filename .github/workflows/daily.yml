@@ -1,8 +1,8 @@
 name: Shiro Daily
 
-"on":
-  schedule:
-    - cron: "42 5 * * *"
+on:
+  repository_dispatch:
+    types: [daily]
   workflow_dispatch:
 
 jobs:
