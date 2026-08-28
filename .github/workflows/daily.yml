@@ -3,7 +3,6 @@ name: Shiro Daily
 "on":
   schedule:
     - cron: "7 6 * * *"
-  workflow_dispatch:
 
 jobs:
   send:
